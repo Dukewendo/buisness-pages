@@ -299,6 +299,8 @@ font-size: 32px;
     grid-template-columns: 5% 1fr 1fr 5%;
     justify-items: center;
     align-items: center;
+    text-align: center;
+    transform: translateY(-100%);
 
 }
 
@@ -315,6 +317,12 @@ font-size: 32px;
     font-size: 18px;
 }
 
-.social-links {
+.social-links img {
     padding: 0px 10px;
+}
+
+.logo,
+.menu {
+    z-index: 2;
+    cursor: pointer;
 }
