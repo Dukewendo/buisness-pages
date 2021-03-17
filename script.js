@@ -1,3 +1,4 @@
+
 function init() {
     const slides = document.querySelectorAll(".slide");
     const pages = document.querySelectorAll(".page");
@@ -73,7 +74,7 @@ tl.to(navOpen, 0.5, {y:0})
 .fromTo(hamburgerLines, 0.2, {stroke: "white"}, {stroke: "black"});
 
 hamburger.addEventListener("click", ()=> {
-    tl.reversed() ? tl.play() : tl.reversed();
+    tl.reversed() ? tl.play() : tl.reverse();
 });
 
 
